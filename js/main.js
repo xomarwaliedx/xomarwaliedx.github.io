@@ -114,4 +114,13 @@
 		}
 	});
 
+	var divs = document.getElementsByClassName("redirect-div");
+
+for (var i = 0; i < divs.length; i++) {
+    divs[i].addEventListener("click", function() {
+        var url = this.getAttribute("data-url");
+        window.open(url, '_blank');
+    });
+}
+
 })(jQuery);
