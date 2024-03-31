@@ -925,12 +925,24 @@ a:hover {
 
 .card-blog .post-author {
   display: inline-block;
+  /* position: absolute;
+  top: 91.3%;
+  vertical-align: top; */
+  /* padding-bottom: 20px; */
 }
+@media only screen and (max-width: 800px) {
+  .card-blog .post-author .bottom-space {
+    /* position: absolute;
+  top: 91.3%;
+  vertical-align: top; */
+  padding-bottom: 6%;
+}}
 
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
   float: right;
+
 }
 
 /*======================================
