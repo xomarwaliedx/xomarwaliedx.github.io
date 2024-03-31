@@ -935,7 +935,7 @@ a:hover {
     padding-bottom: 6%;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
   .bottom-space {
     padding-bottom: 20%;
   }
